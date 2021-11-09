@@ -17,6 +17,6 @@ https://github.com/mehedishakeel/DigiSpark-Payloads
 1. 
 
 # More Links
-- [https://cedarctic.github.io/digiQuack/](Ducky Script Converter)
-- [https://github.com/hak5/usbrubberducky-payloads](Ducky Scripts)
-- [https://github.com/mehedishakeel/DigiSpark-Payloads](More Scripts)
+- [Ducky Script Converter](https://cedarctic.github.io/digiQuack/)
+- [Ducky Scripts](https://github.com/hak5/usbrubberducky-payloads)
+- [More Scripts](https://github.com/mehedishakeel/DigiSpark-Payloads)

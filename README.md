@@ -11,12 +11,12 @@ ATtiny85 based rubber ducky knockoffs.
    ![img](https://raw.githubusercontent.com/dpucyber/rubber-duckies/main/images/boardurl.png)
 4. Open Boards Manager (via Tools>Board>Boards Manager) 
 5. Search for and download `Digistump AVR Boards`.
-
+https://github.com/mehedishakeel/DigiSpark-Payloads
 ### Programming/Flashing
 
 1. 
 
-# Useful Links
+# More Links
 - [https://cedarctic.github.io/digiQuack/](Ducky Script Converter)
 - [https://github.com/hak5/usbrubberducky-payloads](Ducky Scripts)
-- 
+- [https://github.com/mehedishakeel/DigiSpark-Payloads](More Scripts)

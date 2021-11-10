@@ -8,7 +8,7 @@ void setup() {
   DigiKeyboard.sendKeyStroke(KEY_ENTER); // Press enter!
   DigiKeyboard.delay(10000); // wait 10 seconds
   DigiKeyboard.print(" "); // Press space
-  DigiKeyboard.delay(600); // Wait .6 seconds
+  DigiKeyboard.delay(1000); // Wait .6 seconds
   DigiKeyboard.print("f"); // Full screen
 }
 void loop() {}

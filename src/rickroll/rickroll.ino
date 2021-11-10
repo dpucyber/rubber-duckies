@@ -4,7 +4,11 @@ void setup() {
   DigiKeyboard.sendKeyStroke(0); // Init keyboard
   DigiKeyboard.sendKeyStroke(KEY_R, MOD_GUI_LEFT); // Do WIN+R
   DigiKeyboard.delay(600); // Wait .6 seconds
-  DigiKeyboard.print("https://youtube.com/embed/xm3YgoEiEDc"); // Type url
+  DigiKeyboard.print("https://youtu.be/xm3YgoEiEDc"); // Type url
   DigiKeyboard.sendKeyStroke(KEY_ENTER); // Press enter!
+  DigiKeyboard.delay(10000); // wait 10 seconds
+  DigiKeyboard.print(" "); // Press space
+  DigiKeyboard.delay(600); // Wait .6 seconds
+  DigiKeyboard.print("f"); // Full screen
 }
 void loop() {}

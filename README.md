@@ -7,28 +7,32 @@ ATtiny85 based rubber ducky knockoffs. Cheap keyboard/mouse emulators/injectors.
    - [Windows Guide](https://www.arduino.cc/en/guide/windows)
    - [MacOS Guide](https://www.arduino.cc/en/guide/macOSX)
    
-2. Download this repo [here](https://github.com/dpucyber/rubber-duckies/archive/refs/heads/main.zip).
+2. Open Arduino IDE
 
-3. Unzip the main.zip file, then open the ino file you want to use.
-
-4. Then, in Arduino click **Preferences** (File > Preferences):
+3. Then, in Arduino click **Preferences** (File > Preferences):
 
    ![img](https://raw.githubusercontent.com/dpucyber/rubber-duckies/main/images/dropdowntopreferences.png)
 
-5. Add `http://digistump.com/package_digistump_index.json` to **additional board manager URLs**.
+4. Add `http://digistump.com/package_digistump_index.json` to **additional board manager URLs**.
    ![img](https://raw.githubusercontent.com/dpucyber/rubber-duckies/main/images/boardurl.png)
 
-6. Click **OK** to exit that.
+5. Click **OK** to exit that.
 
-7. Open **Boards Manager** (via Tools>Board>Boards Manager):
+6. Open **Boards Manager** (via Tools>Board>Boards Manager):
    ![img](https://raw.githubusercontent.com/dpucyber/rubber-duckies/main/images/boardmanager.png)
 
-8. Search for `Digistump AVR Boards` and click **INSTALL**. ![img](https://raw.githubusercontent.com/dpucyber/rubber-duckies/main/images/digistump.png)
+7. Search for `Digistump AVR Boards` and click **INSTALL**. ![img](https://raw.githubusercontent.com/dpucyber/rubber-duckies/main/images/digistump.png)
 
-9. 
+   
 ### Programming/Flashing
 
-1. 
+1. Download this repo [here](https://github.com/dpucyber/rubber-duckies/archive/refs/heads/main.zip).
+2. Unzip the main.zip file, then open the `.ino` file you want to use. In this example we'll use the rickroll file.
+3. Once you opened it, make sure the board under **Tools > Board** is **"Digispark (Default - 16.5)"**
+4. Lastly, click the **Upload** button once everything was set. (Double check that port was selected if you can't upload it)
+   ![img](https://raw.githubusercontent.com/dpucyber/rubber-duckies/main/images/flash.png)
+5. ***Then*** plug in the digispark when it says "Plug in device now... (will timeout in 60 seconds)"
+6. After that completes you should have your very own rick rolling USB stick. 
 
 # More Links
 - [Ducky Script Converter](https://cedarctic.github.io/digiQuack/)
@@ -38,4 +42,6 @@ ATtiny85 based rubber ducky knockoffs. Cheap keyboard/mouse emulators/injectors.
 - [More Scripts](https://github.com/mehedishakeel/DigiSpark-Payloads)
 
   
+
+
 
